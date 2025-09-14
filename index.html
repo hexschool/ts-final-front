@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home</title>
+  <title>首頁</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/all.min.css" />
@@ -14,7 +14,7 @@
   <div class="container position-relative" style="min-height: 100vh;">
     <div class="d-md-none position-absolute" style="top:0; bottom:0; left:0; right:0; background-image: url(https://images.unsplash.com/photo-1656275537622-7837184a0dcc?q=80&w=1350&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
       background-position: center center;"></div>
-    <nav class="navbar navbar-expand-lg navbar-light z-1">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white mt-n1 py-2 px-3 z-1" style="margin: 0 -0.75rem;">
       <a class="navbar-brand" href="./index.html">
         <img class="img-fluid" style="width: 3.75rem; height: 3.75rem;" src="./assets/images/logo.webp" alt="logo">
       </a>
@@ -24,9 +24,7 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link me-4 active" href="./index.html">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link me-4" href="./product.html">Product</a>
-          <a class="nav-item nav-link me-4" href="./detail.html">Detail</a>
+          <a class="nav-item nav-link me-4" href="./product.html">產品列表</a>
           <a class="nav-item nav-link" href="./cart.html"><i class="fas fa-shopping-cart"></i></a>
         </div>
       </div>
@@ -38,7 +36,7 @@
       <div class="h-100 d-flex flex-column justify-content-center align-items-center text-white">
         <h2>植感生活</h2>
         <p class="mb-0">專業挑選的室內植栽，打造你的專屬室內綠洲</p>
-        <button class="btn btn-dark rounded-3 mt-6">來去逛逛</button>
+        <a href="./product.html" class="btn btn-dark rounded-3 mt-6">來去逛逛</a>
       </div>
     </div>
   </div>
@@ -47,14 +45,14 @@
       <div class="col-md-4 mt-md-4">
         <div class="card border-0 mb-4">
           <img
-            src="https://images.unsplash.com/photo-1502743780242-f10d2ce370f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1916&q=80"
-            class="card-img-top rounded-0" alt="..." />
+            style="height: 300px;"
+            src="https://images.unsplash.com/photo-1616220797246-f01f49dd805d?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="card-img-top rounded-0 object-fit-cover" alt="琴葉榕" />
           <div class="card-body text-center">
-            <h4>Lorem ipsum</h4>
+            <h4>琴葉榕（Fiddle Leaf Fig）</h4>
             <div class="d-flex justify-content-between">
               <p class="card-text text-muted mb-0">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod.
+                想為客廳增添時尚氣場？這棵高挑挺拔的琴葉榕，以其獨特如提琴般的寬大葉片，成為空間中最搶眼的藝術品。它不只是植物，更是能提升居家品味、展現個人風格的設計單品，為您的生活空間注入大器又充滿生機的綠意。
               </p>
             </div>
           </div>
@@ -63,14 +61,14 @@
       <div class="col-md-4 mt-md-4">
         <div class="card border-0 mb-4">
           <img
-            src="https://images.unsplash.com/photo-1502743780242-f10d2ce370f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1916&q=80"
-            class="card-img-top rounded-0" alt="..." />
+            style="height: 300px;"
+            src="https://images.unsplash.com/photo-1616122236015-b37dc314d875?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="card-img-top rounded-0 object-fit-cover" alt="橡膠樹" />
           <div class="card-body text-center">
-            <h4>Lorem ipsum</h4>
+            <h4>橡膠樹（Rubber Plant）</h4>
             <div class="d-flex justify-content-between">
               <p class="card-text text-muted mb-0">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod.
+                簡約，但不簡單。橡膠樹擁有厚實且帶有光澤的深綠色葉片，外觀沉穩大方，是打造現代簡約居家風格的完美選擇。它高度約在  120 - 180 公分，能為空間帶來寧靜感與設計感，是兼具美觀與淨化空氣功能的優質植栽。
               </p>
             </div>
           </div>
@@ -79,14 +77,14 @@
       <div class="col-md-4 mt-md-4">
         <div class="card border-0 mb-4">
           <img
-            src="https://images.unsplash.com/photo-1502743780242-f10d2ce370f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1916&q=80"
-            class="card-img-top rounded-0" alt="..." />
+            style="height: 300px;"
+            src="https://images.unsplash.com/photo-1660756723808-d85024a7e5d4?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="card-img-top rounded-0 object-fit-cover" alt="黃金葛" />
           <div class="card-body text-center">
-            <h4>Lorem ipsum</h4>
+            <h4>黃金葛（Golden Pothos）</h4>
             <div class="d-flex justify-content-between">
               <p class="card-text text-muted mb-0">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod.
+                最適合新手的「綠色瀑布」！黃金葛是生命力旺盛的居家良伴，翠綠與金黃交錯的葉片，讓室內空間瞬間活潑起來。無論是垂吊在窗邊，或是沿著牆面、書架攀爬，其長度可達 200 公分，輕鬆為您打造療癒又充滿層次的居家景觀。
               </p>
             </div>
           </div>
@@ -143,9 +141,9 @@
         class="d-flex flex-column flex-md-row justify-content-between align-items-md-end align-items-start text-white">
         <div class="mb-md-0 mb-1">
           <p class="mb-0">02-3456-7890</p>
-          <p class="mb-0">service@mail.com</p>
+          <p class="mb-0">plantlife@mail.com</p>
         </div>
-        <p class="mb-0">© 2020 LOGO All Rights Reserved.</p>
+        <p class="mb-0">© 2025 植感生活 All Rights Reserved.</p>
       </div>
     </div>
   </div>
