@@ -1,3 +1,13 @@
+.carousel-container {
+  height: 500px;
+}
+
+@include media-breakpoint-down(xl) {
+  .carousel-container {
+    height: auto;
+  }
+}
+
 .custom-checkout-label {
   padding-left: 28px;
   cursor: pointer;
